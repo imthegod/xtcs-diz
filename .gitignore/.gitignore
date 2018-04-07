@@ -513,14 +513,32 @@ td.member-info
 
 .edited-post-field
 {
-	background: #eeeeee;
+	background: #ecf0f1;
 	font-size: 10px;
-	border: #aaaaaa solid;
-	border-width: 1px 1px 0px 1px;
-	border-radius: 3px 3px 0px 0px;
-	-moz-border-radius: 3px 3px 0px 0px;
-	-webkit-border-radius: 3px 3px 0px 0px;
-	padding: 1px 6px 0px 6px;
+	border: 1px solid rgba(0, 0, 0, 0.08);
+	border-width: 1px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	padding: 5px;
+}
+td.viewthread.message-signature {
+    background-color: #fff;
+    font-family: calibri;
+    padding: 12px; 
+}
+hr.forum-line {
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    border-bottom: 0;
+    border-width: 1px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+hr.edited-post {
+    border-top: 0;
+    border-bottom: 0;
+    border-width: 0;
+    margin: 0px; display: none;
 }
 #pqe-button:hover
 {
