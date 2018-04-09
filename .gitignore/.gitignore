@@ -142,6 +142,13 @@ background-color: #ecf0f1;
     font-weight: bold;
     margin-left: 20px;
     font: bold 13px calibri;
+    color: #fff;
+}
+.h-2-4 ul li a:active
+{
+	position: relative;
+	top: 0px;
+	left: 0px;
 }
 
 .h-2-4 ul li a:hover {
