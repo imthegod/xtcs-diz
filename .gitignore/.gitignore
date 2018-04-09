@@ -1,3 +1,4 @@
+@-moz-document url("xtcs.lt"), url("http://www.xtcs.lt/index.php"), url("http://www.xtcs.lt/"), url-prefix("xtcs.lt"), url-prefix("http://www.xtcs.lt/") {
 body
 {
 	background-color: #ecf0f1;
@@ -29,6 +30,64 @@ small {
     box-shadow: none;
     position: relative;
     border-radius: 3px;
+}
+.subject {
+    color: #ffffff;
+    font: bold 14px calibri; text-transform: uppercase;
+    text-shadow: none;
+    padding-left: 10px;
+}
+.agames-pg a, .xtcs-pg {
+    background-color: #ecf0f1;
+    background: #ecf0f1;
+    color: #2d3436;
+    font: bold 12px calibri;
+    text-decoration: none;
+    border: solid 1px;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    margin: 3px;
+    padding: 7px 9px;
+}
+.agames-pg span, .xtcs-pg-span {
+    background-color: #2d3436;
+    background: #2d3436;
+    color: #fff;
+    font: bold 12px calibri;
+    border: solid 1px;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    margin: 3px;
+    padding: 7px 9px;
+}
+.agames-pg a:hover, .xtcs-pg:hover
+{
+	background-color: rgba(0, 0, 0, 0.1);
+	border: rgba(0, 0, 0, 0.2) solid 1px;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none; transition: 0.5s;
+}
+.quote {
+    background: #ecf0f1;
+    color: #2d3436;
+    font-size: 11px;
+    border: rgba(0, 0, 0, 0.1) solid;
+    border-width: 1px 1px 1px 2px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    padding: 5px 5px 5px 25px;
 }
 .side-1
 {
@@ -503,7 +562,7 @@ td.member-info
 	font-family: calibri;
 	font-size: 10px;
 	text-shadow: none;
-	border-top: 1px solid rgba(0, 0, 0, 0.05);
+	border-top: 0;
 	box-shadow: none;
 	-moz-box-shadow: none;
 	-webkit-box-shadow: none;
@@ -671,4 +730,5 @@ textarea.fast-reply, textarea.reply, input.text-field
 ::-webkit-scrollbar-thumb{
     background: #c0392b;
     border: 2px solid #c0392b;
+}
 }
