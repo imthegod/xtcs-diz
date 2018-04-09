@@ -9,10 +9,10 @@ body
 }
 
 td a {
-    font-family: calibri; color: #c0392b;
+    font-family: calibri; color: #55943a;
 }
 
-a { font-family: calibri; color: #c0392b; }
+a { font-family: calibri; color: #55943a; }
 a:hover { text-decoration: none; color: rgba(0, 0, 0, 0.4); transition: .5s; }
 
 small {
@@ -208,7 +208,7 @@ background-color: #ecf0f1;
 
 .h-2
 {
-	background: url('https://i.imgur.com/HIfF9F3.gif') no-repeat;
+	background: url('https://i.imgur.com/icAkSXJ.jpg') no-repeat;
 	width: 252px;
 	height: 197px;
     border-bottom-left-radius: 4px;
