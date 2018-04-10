@@ -5,6 +5,7 @@ body
 	font-family: calibri;
 	margin: 0 auto !important;
 	padding: 0 !important;
+    font-size: 11px;
 }
 
 td a {
@@ -14,22 +15,17 @@ td a {
 a { font-family: calibri; color: #55943a; }
 a:hover { text-decoration: none; color: rgba(0, 0, 0, 0.4); transition: .5s; }
 table tr td a img { 
-    border: transparent solid 3px !important; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;
+    border: 0 !important; 
+    border-radius: 3px !important;
+    -moz-border-radius: 3px !important;
+    -webkit-border-radius: 3px !important;    
+    margin-right: 5px;
+}
+tbody tr td hr {
+ border: 0 !important;   
 }
 small {
     font-size: 10px;
-}
-._2lqg {
-    background: #fff;
-    border: 0;
-    border-top: 0;
-    overflow-y: auto;
-}
-._h7n {
-    background: #ecf0f1;
-    box-shadow: none;
-    position: relative;
-    border-radius: 3px;
 }
 .subject {
     color: #ffffff;
@@ -133,10 +129,17 @@ background-color: #ecf0f1;
 
 .h-2-1 {
     background: url("https://i.imgur.com/cQHmEvx.gif") !important;
-    width: 607px !important;
-    height: 135px !important;
+    width: 600px !important;
+    height: 130px !important;
     background-repeat: no-repeat !important;
     margin: 0 auto !important;
+}
+tbody td td.table-2-new div img {
+    display: none
+    
+}
+tbody td td.table-2-new div a:before {
+   content: url('https://i.imgur.com/2R7KgCt.gif');
 }
 
 .h-2-3 {
@@ -152,14 +155,14 @@ background-color: #ecf0f1;
     padding: 0;
     border-right: 3px solid #55943a;
     width: 612px !important;
-    height: 60px !important;
+    height: 65px !important;
 }
 
 .h-2-4 ul li a {
     text-shadow: none;
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-weight: bold;
-    margin-left: 20px;
+    margin-left: 30px;
     font: bold 13px calibri;
     color: #fff;
 }
