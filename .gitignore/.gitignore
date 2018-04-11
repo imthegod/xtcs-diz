@@ -21,8 +21,8 @@ table tr td a img {
     -webkit-border-radius: 3px !important;    
     margin-right: 5px;
 }
-tbody tr td hr {
- border: 0 !important;   
+table tbody tr td hr {
+ border: 0 !important;
 }
 small {
     font-size: 10px;
@@ -117,7 +117,7 @@ small {
 
 .side-center {
 background-color: #ecf0f1;
-	padding: 20px 0px 0px 0px;
+	padding: 3px 0px 0px 0px;
 	width: 544px;
     border-radius: 3px;
 }
@@ -125,6 +125,7 @@ background-color: #ecf0f1;
 .side-right {
     background-color: #ecf0f1;
     border-radius: 3px;
+    padding: 3px 0px 0px 5px;
 }
 
 .h-2-1 {
@@ -135,12 +136,10 @@ background-color: #ecf0f1;
     margin: 0 auto !important;
 }
 tbody td td.table-2-new div img {
-    display: none
+    border: 0 !important;
     
 }
-tbody td td.table-2-new div a:before {
-   content: url('https://i.imgur.com/2R7KgCt.gif');
-}
+
 
 .h-2-3 {
     background: url(images/2-3.png) no-repeat;
@@ -148,6 +147,14 @@ tbody td td.table-2-new div a:before {
     height: 0px !important;
     display: none;
 }
+div {
+    box-shadow: none !important;
+  
+}
+div img {
+    border-radius: 3px   
+}
+
 .h-2-4 {
     background: #2d3436;
     border-top-right-radius: 3px;
@@ -160,9 +167,9 @@ tbody td td.table-2-new div a:before {
 
 .h-2-4 ul li a {
     text-shadow: none;
-    text-transform: lowercase;
+    text-transform: uppercase;
     font-weight: bold;
-    margin-left: 30px;
+    margin-left: 18.5px;
     font: bold 13px calibri;
     color: #fff;
 }
@@ -614,10 +621,10 @@ hr.forum-line {
     margin-bottom: 12px;
 }
 hr.edited-post {
-    border-top: 0;
-    border-bottom: 0;
-    border-width: 0;
-    margin: 0px; display: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    border-width: 1px;
+    margin: 0px; 
 }
 #pqe-button:hover
 {
